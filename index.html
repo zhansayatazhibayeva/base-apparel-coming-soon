@@ -20,32 +20,38 @@
 
   <main>
     <div class="container">
-      <div class="logo left-content">
+      <div class="logo mobile-logo">
         <img src="images/logo.svg" alt="Logo">
       </div>
       <div class="row right-content">
-        <div class="bg-desktop">
+        <div class="bg-desctop">
           <img src="images/hero-desktop.jpg" alt="Desktop Hero Image">
         </div>
         <div class="bg-mobile">
           <img src="images/hero-mobile.jpg" alt="Mobile Hero Image">
         </div>
       </div>
-      <div class="row-text left-content">
-        <span class="red-text">We're <br> <span class="black-text">hiring <br>soon</span></span>
-        <p>Hello fellow shoppers! We're currently building our new fashion store. 
-          Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      <div class="left-content">
+        <div class="desctop-logo">
+          <img src="images/logo.svg" alt="Logo">
+        </div>
+        <div class="row-text">
+          <span class="red-text">We're <br> <span class="black-text">hiring <br>soon</span></span>
+          <p>Hello fellow shoppers! We're currently building our new fashion store. 
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        </div>
+        <div class="form-wrap">
+          <form id="form">
+            <input type="email" id="email" class="email" name="email" placeholder="Email Address">
+            <img class="error-icon" src="images/icon-error.svg" alt="error">
+            <button type="submit">
+              <img src="images/icon-arrow.svg" alt="Submit">
+            </button>     
+          </form>
+          <span class="wrong-email">Please provide a valid email!</span>
+        </div>
       </div>
-      <div class="form-wrap left-content">
-        <form id="form">
-          <input type="email" id="email" class="email" name="email" placeholder="Email Address">
-          <img class="error-icon" src="images/icon-error.svg" alt="error">
-          <button type="submit">
-            <img src="images/icon-arrow.svg" alt="Submit">
-          </button>     
-        </form>
-        <span class="wrong-email">Please provide a valid email!</span>
-      </div>
+      
     </div>
   </main>
   <script src="script.js"></script>
